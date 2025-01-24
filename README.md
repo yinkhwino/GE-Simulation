@@ -33,7 +33,7 @@ Here is the typical folder structure for a Vue project created with Vite:
 app/
 ├── node_modules/
 ├── public/
-│   └── favicon.ico
+│   └── vite.svg
 ├── src/
 │   ├── assets/
 │   ├── components/
@@ -58,11 +58,6 @@ Contains all npm dependencies and packages required by the project. You generall
 
 Files in the public folder are served as static assets and are accessible directly in the browser. 
 
-Folder: 
-```bash
-public/
-└── favicon.ico (http://localhost:3000/favicon.ico) 
-```
 3. src/ 
 
 This is the main working directory where application code resides. 
