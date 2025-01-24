@@ -19,7 +19,7 @@ Automatically updates the DOM when the underlying data changes, providing a seam
 4. Directives:
 Built-in commands like v-model (two-way binding), v-on (event listeners), and v-bind (dynamic attributes).
 ```bash
-<input v-model="msg" type="number" placeholder="type msg">
+<input v-model="productA/A1" type="number" placeholder="type number">
 </input>
 ```
 5. Computed Properties:
