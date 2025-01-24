@@ -20,5 +20,23 @@ const doEdit = (e)=>{editing.value = e}
   <button class="btn btn-primary" v-if="editing" @click="doEdit(false)">Compute</button>
   <button v-else @click="doEdit(true)">Compute</button>
 </form>
-<!--Add your own Compute function of Vite-->
+<p v-if="editing" class="computed-result">Computed product: {{ computedProduct }}</p>
 </template>
+
+<script setup>
+import { ref, computed } from 'vue'
+import { compute } from './Utils/Function.js'
+
+const heading = ref('Compute Product!')
+const productA = ref(0)
+const productA1 = ref(0)
+const editing = ref(false)
+
+const toggleEdit = () => {
+  editing.value = !editing.value
+}
+
+const computedProduct = computed(() => {
+  return compute(productA.value, productA1.value)
+})
+</script>
