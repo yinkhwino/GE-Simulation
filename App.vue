@@ -14,9 +14,9 @@ const doEdit = (e)=>{editing.value = e}
 </div>
 <form class="submit class" v-if="!editing">
   <label>Product A: </label><br>
-  <input v-model="msg" type="number" placeholder="type msg"></input><br>
+  <input v-model="productA" type="number" placeholder="type number"></input><br>
   <label>Product A1: </label><br>
-  <input v-model="msg1" type="number" placeholder="type msg1"></input><br>
+  <input v-model="productA1" type="number" placeholder="type number"></input><br>
   <button class="btn btn-primary" v-if="editing" @click="doEdit(false)">Compute</button>
   <button v-else @click="doEdit(true)">Compute</button>
 </form>
