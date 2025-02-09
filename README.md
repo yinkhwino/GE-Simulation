@@ -1,4 +1,4 @@
-# GE-Simulation
+# GE-Job-Sim
 I have built Vue.js UI for GE Aerospace Digital Frontend development team as part of curriculum on Forage platform. The language I was instructed to use is JavaScript, Vue 3 framework 🚀
 
 ## Key Features: 
