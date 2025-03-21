@@ -97,7 +97,7 @@ createApp(App).mount('#app');
 ```
 - index.css
 
-A global CSS file that applies styles to app. You can rename or replace it with SCSS or other preprocessors.
+A global CSS file that applies styles to app.
 
 4. index.html
 
@@ -110,7 +110,7 @@ html:
     <meta charset="UTF-8" />
     <link rel="icon" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + Vue</title>
+    <title>GE-Simulation VueJS fundamentals</title>
   </head>
   <body>
     <div id="app"></div>
@@ -143,8 +143,8 @@ Defines project dependencies, scripts, and metadata.
 Json:
 ```bash
 {
-  "name": "vite-vue-starter",
-  "version": "0.0.0",
+  "name": "ge-simulation-vuejs-fundamentals",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
